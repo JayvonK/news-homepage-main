@@ -41,3 +41,32 @@
 .interRegular {
     font-family: Inter Regular;
 }
+
+.btn {
+    width: 55%;
+    background-color: hsl(5, 85%, 63%);
+}
+
+.btnLineSpace {
+    letter-spacing: 14px;
+}
+
+.orange {
+    color: hsl(35, 77%, 62%);
+}
+
+.text-darkBlue {
+    color: hsl(240, 100%, 5%);
+}
+
+.text-grayBlue {
+    color: hsl(233, 8%, 79%);
+}
+
+.text-darkGrayBlue {
+    color: hsl(236, 13%, 42%);
+}
+
+.bg-darkBlue {
+    background-color: hsl(240, 100%, 5%);
+}
