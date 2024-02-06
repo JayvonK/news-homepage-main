@@ -2272,6 +2272,10 @@ input:checked + .toggle-bg {
   .\32xl\:mt-0 {
     margin-top: 0px;
   }
+
+  .\32xl\:mt-12 {
+    margin-top: 3rem;
+  }
 }
 
 .rtl\:rotate-180:where([dir="rtl"], [dir="rtl"] *) {
