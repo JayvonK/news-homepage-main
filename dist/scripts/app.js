@@ -22,7 +22,7 @@ xBtn.addEventListener('mouseover', (event) => {
     xImg.setAttribute("fill", "hsl(5, 85%, 63%)")
 })
 
-nBtn.addEventListener('mouseleave', (event) => {
+xBtn.addEventListener('mouseleave', (event) => {
     xImg.setAttribute("fill", "hsl(240, 100%, 5%)")
 })
 

@@ -1190,6 +1190,14 @@ input:checked + .toggle-bg {
   margin-top: 70px;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -1276,6 +1284,10 @@ input:checked + .toggle-bg {
 
 .w-\[248px\] {
   width: 248px;
+}
+
+.w-\[75\%\] {
+  width: 75%;
 }
 
 .flex-1 {
@@ -1570,6 +1582,11 @@ input:checked + .toggle-bg {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
 .pb-3 {
