@@ -6,7 +6,7 @@ For this project, I simply just had to recreate a website's home page, using tai
 Peer Reviewed By: Alexander Soria 
 Peer Review: The website looks very close to the original, pretty much a 1:1 recration. The page is very responsive and works really well when shrunken down. The only minor problem I can see is that, at least on the desktop version when it is at 1920 x 1080px, there appears to be some space left that keeps it scrollable when it realistically shouldn't, but it's a minor nitpick. Overall, it's a really good effort!
 
-
+Edit: Fixed the scrollable on 1920 x 1080px, I simply just made the margins smaller on 2xl screen size
 
 
 
