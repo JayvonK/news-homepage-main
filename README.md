@@ -3,8 +3,8 @@ Jayvon Khuth
 Project - TechNewsHomePage
 For this project, I simply just had to recreate a website's home page, using taiwind and a little bit of vanilla js. For the responsiveness I mainly just used all the built in media query classes in tailwind. All the fonts and images was already provided in an assets folder
 
-Peer Reviewed By:
-Peer Review:
+Peer Reviewed By: Alexander Soria 
+Peer Review: The website looks very close to the original, pretty much a 1:1 recration. The page is very responsive and works really well when shrunken down. The only minor problem I can see is that, at least on the desktop version when it is at 1920 x 1080px, there appears to be some space left that keeps it scrollable when it realistically shouldn't, but it's a minor nitpick. Overall, it's a really good effort!
 
 
 
