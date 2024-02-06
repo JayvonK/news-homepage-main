@@ -1,3 +1,17 @@
+Jayvon Khuth
+2/6/2024
+Project - TechNewsHomePage
+For this project, I simply just had to recreate a website's home page, using taiwind and a little bit of vanilla js. For the responsiveness I mainly just used all the built in media query classes in tailwind. All the fonts and images was already provided in an assets folder
+
+Peer Reviewed By:
+Peer Review:
+
+
+
+
+
+
+
 # Frontend Mentor - News homepage
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
