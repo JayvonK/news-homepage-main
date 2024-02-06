@@ -1202,6 +1202,18 @@ input:checked + .toggle-bg {
   margin-bottom: 1rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -1686,6 +1698,11 @@ input:checked + .toggle-bg {
   padding-bottom: 1.25rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pb-9 {
   padding-bottom: 2.25rem;
 }
@@ -1813,6 +1830,11 @@ input:checked + .toggle-bg {
 
 .text-\[40px\] {
   font-size: 40px;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-\[700\] {
