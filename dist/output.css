@@ -1198,6 +1198,10 @@ input:checked + .toggle-bg {
   margin-top: 1.25rem;
 }
 
+.mb-\[10px\] {
+  margin-bottom: 10px;
+}
+
 .block {
   display: block;
 }
@@ -1625,6 +1629,10 @@ input:checked + .toggle-bg {
   padding-top: 15px;
 }
 
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1664,6 +1672,15 @@ input:checked + .toggle-bg {
 
 .text-\[14px\] {
   font-size: 14px;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
 }
 
 .font-\[800\] {
@@ -2191,6 +2208,30 @@ input:checked + .toggle-bg {
     margin-top: 88px;
   }
 
+  .xl\:mt-\[80px\] {
+    margin-top: 80px;
+  }
+
+  .xl\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .xl\:mt-16 {
+    margin-top: 4rem;
+  }
+
+  .xl\:mt-\[75px\] {
+    margin-top: 75px;
+  }
+
+  .xl\:mt-\[70px\] {
+    margin-top: 70px;
+  }
+
+  .xl\:mt-\[65px\] {
+    margin-top: 65px;
+  }
+
   .xl\:grid {
     display: grid;
   }
@@ -2209,6 +2250,14 @@ input:checked + .toggle-bg {
 
   .xl\:grid-cols-\[66\.75\%_33\.25\%\] {
     grid-template-columns: 66.75% 33.25%;
+  }
+
+  .xl\:grid-cols-\[28\%_73\%\] {
+    grid-template-columns: 28% 73%;
+  }
+
+  .xl\:grid-cols-\[28\%_72\%\] {
+    grid-template-columns: 28% 72%;
   }
 
   .xl\:grid-rows-\[55\%_45\%\] {
