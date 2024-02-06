@@ -28,12 +28,13 @@
 
 
   <nav class="">
-    <div class="flex flex-wrap items-center justify-between mx-[168px] mt-20 mb-14">
-      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="./assets/images/logo.svg" class="" alt="TechNews Logo" />
+    <div class="flex flex-wrap items-center justify-between xl:mx-[168px] md:mx-[80px] xl:mt-20 xl:mb-14 mx-5 mt-8 mb-9">
+      <a href="https://flowbite.com/" class="flex items-center xl:space-x-3 rtl:space-x-reverse">
+        <img src="./assets/images/logo.svg" class="md:block hidden" alt="TechNews Logo" />
+        <img src="./assets/images/logo.svg" class="md:hidden w-[70%]" alt="TechNews Logo" />
       </a>
       <button id="navBtn" type="button"
-        class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg md:hidden ">
+        class="inline-flex items-center text-sm text-gray-500 rounded-lg md:hidden ">
         <span class="sr-only">Open sidebar</span>
         <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg">
           <g fill="#00001A" fill-rule="evenodd">
@@ -47,31 +48,31 @@
           class="font-medium flex md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-11 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
             <a href="#"
-              class="block py-2 px-5 text-darkGrayBlue rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent inter">Home</a>
+              class="block text-darkGrayBlue rounded hover:text-redd border-0 p-0 inter">Home</a>
           </li>
           <li>
             <a href="#"
-              class="block py-2 px-5 text-darkGrayBlue rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent inter ">New</a>
+              class="block text-darkGrayBlue rounded hover:text-redd border-0 p-0 inter">New</a>
           </li>
           <li>
             <a href="#"
-              class="block py-2 px-5 text-darkGrayBlue rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent inter ">Popular</a>
+              class="block text-darkGrayBlue rounded hover:text-redd border-0 p-0 inter">Popular</a>
           </li>
           <li>
             <a href="#"
-              class="block py-2 px-5 text-darkGrayBlue rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent inter ">Trending</a>
+              class="block text-darkGrayBlue rounded hover:text-redd border-0 p-0 inter">Trending</a>
           </li>
           <li>
             <a href="#"
-              class="block py-2 px-5 text-darkGrayBlue rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent inter ">Categories</a>
+              class="block text-darkGrayBlue rounded hover:text-redd border-0 p-0 inter">Categories</a>
           </li>
         </ul>
       </div>
-      <aside id="default-sidebar" class="fixed top-0 right-0 z-40 w-64 h-screen transition-transform hidden"
+      <aside id="s-bar" class="fixed top-0 right-0 z-40 w-64 h-screen transition-transform hidden"
         aria-label="Sidebar">
         <div class="h-full px-4 py-4 overflow-y-auto bg-body">
           <div class="flex justify-end mt-3 mr-2 mb-20">
-            <svg width="32" height="31" xmlns="http://www.w3.org/2000/svg">
+            <svg id="xBtn" width="32" height="31" xmlns="http://www.w3.org/2000/svg">
               <g fill="#00001A" fill-rule="evenodd">
                 <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
                 <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
@@ -125,39 +126,42 @@
     </div>
   </nav>
 
-  <div class="grid grid-cols-[66.75%_33.25%] mx-[168px]">
-    <div class="grid-rows-[55%_45%] mr-8">
-      <div class="mb-10">
-        <img src="./assets/images/image-web-3-desktop.jpg" alt="">
+  <div class="xl:grid xl:grid-cols-[66.75%_33.25%] xl:mx-[168px] md:mx-[80px] mx-5">
+    <div class="xl:grid-rows-[55%_45%] xl:mr-8">
+      <div class="xl:mb-10">
+        <img class="sm:block hidden" src="./assets/images/image-web-3-desktop.jpg" alt="">
+        <img class="sm:hidden" src="./assets/images/image-web-3-mobile.jpg" alt="">
       </div>
-      <div class="grid grid-cols-2">
-        <div class="pr-10">
-          <h1 class="h-full interExtraBold text-[57px] text-darkBlue leading-[60px]">The Bright Future of Web 3.0?</h1>
+      <div class="xl:grid xl:grid-cols-2">
+        <div class="xl:pr-10">
+          <h1 class="h-full 2xl:mt-0 interExtraBold xl:text-[57px] text-darkBlue xl:leading-[60px] xl:mb-0 xl:mt-0 lg:mt-6 text-[40px] leading-[40px] mb-6 mt-7">The Bright Future of Web 3.0?</h1>
         </div>
-        <div class="pl-4">
+        <div class="xl:pl-4">
           <p class="inter text-darkGrayBlue text-[15px]">We dive into the next evolution of the web that claims to put
             the power of
             the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-
-          <button class="btn mt-10">
-            <p class="text-white text-[15px] px-6 py-4 inter font-[700] tracking-[4px]">READ MORE</p>
+            <div>
+              <button class="btn xl:mt-10 xl:mb-0 mt-8 mb-16">
+            <p class="text-white text-[15px] px-6 py-4 inter font-[700] tracking-[4px] hover:bg-darkBlu">READ MORE</p>
           </button>
+            </div>
+          
         </div>
       </div>
     </div>
-    <div class="bg-darkBlue">
+    <div class="bg-darkBlue xl:mb-0">
       <div class="px-6 py-5">
         <h1 class="orange text-[40px] interBold">New</h1>
-        <h2 class="text-white interBold text-xl pt-5">Hydrogen VS Electric Cars</h2>
+        <h2 class="text-white interBold text-xl pt-5 hover:text-softO cursor-pointer">Hydrogen VS Electric Cars</h2>
         <p class="text-grayBlue text-[15px] pb-6 pt-3 inter pr-3 leading-7">Will hydrogen-fueled cars ever catch up to
           EVs?</p>
         <hr>
-        <h2 class="text-white interBold text-xl pt-6">The Downsides of AI Aritstry</h2>
+        <h2 class="text-white interBold text-xl pt-6 hover:text-softO cursor-pointer">The Downsides of AI Aritstry</h2>
         <p class="text-grayBlue text-[15px] pb-6 pt-3 inter leading-7">What are the possible adverse effects of
           on-demand AI
           image generation?</p>
         <hr>
-        <h2 class="text-white interBold text-xl pt-6">Is VC Funding Drying Up?</h2>
+        <h2 class="text-white interBold text-xl pt-6 hover:text-softO cursor-pointer">Is VC Funding Drying Up?</h2>
         <p class="text-grayBlue text-[15px] pt-3 inter leading-7">Private funding by VC firms is down 50% YOY. We take a
           look
           at what that means.</p>
@@ -168,16 +172,16 @@
 
 
 
-  <div class="grid grid-cols-3 mx-[168px] mt-[86px] mb-4">
-    <div>
-      <div class="grid grid-cols-[27%_73%]">
+  <div class="xl:grid xl:grid-cols-3 xl:mx-[168px] md:mx-[80px] xl:mt-[86px] xl:mb-4 mt-16 mb-20">
+    <div class="xl:mt-0 xl:mx-0 xl:mb-0 md:mx-0 mb-8 mx-5">
+      <div class="grid xl:grid-cols-[27%_73%] grid-cols-[30%_70%]">
         <div>
           <img class="h-full object-cover" src="./assets/images/image-retro-pcs.jpg" alt="">
         </div>
-        <div class="pl-6 pr-4">
+        <div class="pl-6 xl:pr-4">
           <div class="h-full">
             <h1 class="interBold text-4xl text-grayBlue mb-3">01</h1>
-            <p class="interExtraBold font-[800] text-lg mb-[6px]">Reviving Retro PCs</p>
+            <p class="interExtraBold font-[800] text-lg mb-[6px] cursor-pointer hover:text-redd">Reviving Retro PCs</p>
             <p class="inter text-darkGrayBlue text-[15px] leading-7">What happens when old PCs are given modern
               upgrades?</p>
           </div>
@@ -185,32 +189,32 @@
         </div>
       </div>
     </div>
-    <div>
-      <div class="grid grid-cols-[27%_73%] ">
+    <div class="xl:mt-0 xl:mx-0 xl:mb-0 md:mx-0 mb-8 mx-5">
+      <div class="grid xl:grid-cols-[27%_73%] grid-cols-[30%_70%] ">
         <div>
           <img class="h-full object-cover" src="./assets/images/image-top-laptops.jpg" alt="">
         </div>
         <div class="pl-6">
           <div class="h-full">
             <h1 class="interBold text-4xl text-grayBlue mb-3">02</h1>
-            <p class="interExtraBold font-[800] text-lg mb-[6px]">Top 10 Laptops of 2022</p>
-            <p class="inter text-darkGrayBlue text-[15px] leading-7 pr-8">Our best picks for various needs and budgets
+            <p class="interExtraBold font-[800] text-lg mb-[6px] cursor-pointer hover:text-redd xl:pr-3">Top 10 Laptops of 2022</p>
+            <p class="inter text-darkGrayBlue text-[15px] leading-7 xl:pr-8">Our best picks for various needs and budgets.
             </p>
           </div>
 
         </div>
       </div>
     </div>
-    <div>
-      <div class="grid grid-cols-[27%_73%]">
+    <div class="xl:mt-0 xl:mx-0 xl:mb-0 md:mx-0 mb-8 mx-5">
+      <div class="grid xl:grid-cols-[27%_73%] grid-cols-[30%_70%]">
         <div>
           <img class="h-full object-cover" src="./assets/images/image-gaming-growth.jpg" alt="">
         </div>
         <div class="pl-6">
           <div class="h-full">
             <h1 class="interBold text-4xl text-grayBlue mb-3">03</h1>
-            <p class="interExtraBold font-[800] text-lg mb-[6px]">The Growth of Gaming</p>
-            <p class="inter text-darkGrayBlue text-[15px] leading-7">How the pandemic has sparked fresh opportunities
+            <p class="interExtraBold font-[800] text-lg mb-[6px] cursor-pointer hover:text-redd">The Growth of Gaming</p>
+            <p class="inter text-darkGrayBlue text-[15px] leading-7">How the pandemic has sparked fresh opportunities.
             </p>
           </div>
 
@@ -220,22 +224,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="bg-gray-900/50 dark:bg-gray-900/80 fixed inset-0 z-30 hidden"></div>
+    <div id="background" class="bg-gray-900/50 dark:bg-gray-900/80 fixed inset-0 z-30 hidden"></div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
