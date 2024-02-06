@@ -28,8 +28,8 @@
 
 
   <nav class="">
-    <div class="flex flex-wrap items-center justify-between xl:mx-[168px] lg:mx-[150px] xl:mt-20 xl:mb-14 mx-5 mt-8 mb-9">
-      <a href="https://flowbite.com/" class="flex items-center xl:space-x-3 rtl:space-x-reverse">
+    <div class="flex flex-wrap items-center justify-between xl:mx-[168px] lg:mx-[150px] xl:mt-[88px] xl:mb-14 mx-5 mt-8 mb-9">
+      <a href="" class="flex items-center xl:space-x-3 rtl:space-x-reverse">
         <img src="./assets/images/logo.svg" class="md:block hidden" alt="TechNews Logo" />
         <img src="./assets/images/logo.svg" class="md:hidden w-[70%]" alt="TechNews Logo" />
       </a>
@@ -37,7 +37,7 @@
         class="inline-flex items-center text-sm text-gray-500 rounded-lg md:hidden ">
         <span class="sr-only">Open sidebar</span>
         <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg">
-          <g fill="#00001A" fill-rule="evenodd">
+          <g id="navImg" fill="hsl(240, 100%, 5%)" fill-rule="evenodd">
             <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
             <path d="M0 0h40v3H0z" />
           </g>
@@ -45,7 +45,7 @@
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul
-          class="font-medium flex md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-11 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          class="font-medium flex md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-[42px] rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
             <a href="#"
               class="block text-darkGrayBlue rounded hover:text-redd border-0 p-0 inter">Home</a>
@@ -68,12 +68,12 @@
           </li>
         </ul>
       </div>
-      <aside id="sBar" class="fixed top-0 right-0 z-40 w-64 h-screen transition-transform hidden"
+      <aside id="sBar" class="fixed top-0 right-0 z-40 w-60 h-screen transition-transform hidden"
         aria-label="Sidebar">
         <div class="h-full px-4 py-4 overflow-y-auto bg-body">
-          <div class="flex justify-end mt-3 mr-2 mb-20">
+          <div class="flex justify-end mt-3 mr-2 mb-20 cursor-pointer">
             <svg id="xBtn" width="32" height="31" xmlns="http://www.w3.org/2000/svg">
-              <g fill="#00001A" fill-rule="evenodd">
+              <g id="xImg" fill="hsl(240, 100%, 5%)" fill-rule="evenodd">
                 <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
                 <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
               </g>
@@ -82,14 +82,14 @@
           <ul class="space-y-0 font-medium">
             <li>
               <a href="#"
-                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                class="flex items-center p-2 text-darkBlu rounded-lg dark:text-white hover:text-redd dark:hover:bg-gray-700 group">
 
                 <span class="text-2xl">Home</span>
               </a>
             </li>
             <li>
               <a href="#"
-                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                class="flex items-center p-2 text-darkBlu rounded-lg dark:text-white hover:text-redd dark:hover:bg-gray-700 group">
 
                 <span class="flex-1 text-2xl whitespace-nowrap">New</span>
 
@@ -97,7 +97,7 @@
             </li>
             <li>
               <a href="#"
-                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                class="flex items-center p-2 text-darkBlu rounded-lg dark:text-white hover:text-redd dark:hover:bg-gray-700 group">
 
                 <span class="flex-1 text-2xl whitespace-nowrap">Popular</span>
 
@@ -105,14 +105,14 @@
             </li>
             <li>
               <a href="#"
-                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                class="flex items-center p-2 text-darkBlu rounded-lg dark:text-white hover:text-redd dark:hover:bg-gray-700 group">
 
                 <span class="flex-1 text-2xl whitespace-nowrap">Trendiing</span>
               </a>
             </li>
             <li>
               <a href="#"
-                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                class="flex items-center p-2 text-darkBlu rounded-lg dark:text-white hover:text-redd dark:hover:bg-gray-700 group">
 
                 <span class="flex-1 text-2xl whitespace-nowrap">Categories</span>
               </a>
@@ -141,7 +141,7 @@
             the power of
             the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
             <div>
-              <button class="btn 2xl:mt-16 xl:mt-10 xl:mb-0 mt-8 mb-[70px]">
+              <button class="btn 2xl:mt-16 xl:mt-11 xl:mb-0 mt-8 mb-[70px]">
             <p class="text-white text-[15px] px-6 pt-[15px] pb-3 interBold tracking-[4px] hover:bg-darkBlu">READ MORE</p>
           </button>
             </div>
@@ -150,7 +150,7 @@
       </div>
     </div>
     <div class="bg-darkBlue xl:mb-0">
-      <div class="px-6 py-5">
+      <div class="px-6 pt-5 pb-6">
         <h1 class="orange text-[40px] interBold">New</h1>
         <h2 class="text-white interBold text-xl pt-5 hover:text-softO cursor-pointer">Hydrogen VS Electric Cars</h2>
         <p class="text-grayBlue text-[15px] pb-6 pt-3 inter pr-3 leading-7">Will hydrogen-fueled cars ever catch up to
@@ -182,7 +182,7 @@
           <div class="h-full">
             <h1 class="interBold text-4xl text-grayBlue mb-3">01</h1>
             <p class="interExtraBold font-[800] text-lg mb-[6px] cursor-pointer hover:text-redd">Reviving Retro PCs</p>
-            <p class="inter text-darkGrayBlue text-[15px] leading-7">What happens when old PCs are given modern
+            <p class="inter text-darkGrayBlue text-[15px] leading-[26px]">What happens when old PCs are given modern
               upgrades?</p>
           </div>
 
@@ -198,7 +198,7 @@
           <div class="h-full">
             <h1 class="interBold text-4xl text-grayBlue mb-3">02</h1>
             <p class="interExtraBold font-[800] text-lg mb-[6px] cursor-pointer hover:text-redd xl:pr-3">Top 10 Laptops of 2022</p>
-            <p class="inter text-darkGrayBlue text-[15px] leading-7 xl:pr-8">Our best picks for various needs and budgets.
+            <p class="inter text-darkGrayBlue text-[15px] leading-[26px] xl:pr-8">Our best picks for various needs and budgets.
             </p>
           </div>
 
@@ -214,7 +214,7 @@
           <div class="h-full">
             <h1 class="interBold text-4xl text-grayBlue mb-3">03</h1>
             <p class="interExtraBold font-[800] text-lg mb-[6px] cursor-pointer hover:text-redd">The Growth of Gaming</p>
-            <p class="inter text-darkGrayBlue text-[15px] leading-7">How the pandemic has sparked fresh opportunities.
+            <p class="inter text-darkGrayBlue text-[15px] leading-[26px]">How the pandemic has sparked fresh opportunities.
             </p>
           </div>
 

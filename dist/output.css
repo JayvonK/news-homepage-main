@@ -1262,6 +1262,22 @@ input:checked + .toggle-bg {
   width: 100%;
 }
 
+.w-\[250px\] {
+  width: 250px;
+}
+
+.w-60 {
+  width: 15rem;
+}
+
+.w-\[2\] {
+  width: 2;
+}
+
+.w-\[248px\] {
+  width: 248px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -1580,20 +1596,12 @@ input:checked + .toggle-bg {
   padding-top: 0.75rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .pt-5 {
   padding-top: 1.25rem;
 }
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 
 .pt-\[15px\] {
@@ -1637,8 +1645,8 @@ input:checked + .toggle-bg {
   line-height: 1.75rem;
 }
 
-.font-\[700\] {
-  font-weight: 700;
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .font-\[800\] {
@@ -1669,6 +1677,10 @@ input:checked + .toggle-bg {
   line-height: 40px;
 }
 
+.leading-\[26px\] {
+  line-height: 26px;
+}
+
 .tracking-\[4px\] {
   letter-spacing: 4px;
 }
@@ -1696,6 +1708,11 @@ input:checked + .toggle-bg {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-darkBlu {
+  --tw-text-opacity: 1;
+  color: hsl(240 100% 5% / var(--tw-text-opacity));
 }
 
 .opacity-0 {
@@ -2039,6 +2056,18 @@ input:checked + .toggle-bg {
     margin-left: calc(2.75rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .md\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:space-x-\[42px\] > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(42px * var(--tw-space-x-reverse));
+    margin-left: calc(42px * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .md\:border-0 {
     border-width: 0px;
   }
@@ -2121,6 +2150,30 @@ input:checked + .toggle-bg {
     margin-top: 86px;
   }
 
+  .xl\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .xl\:mt-11 {
+    margin-top: 2.75rem;
+  }
+
+  .xl\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .xl\:mt-24 {
+    margin-top: 6rem;
+  }
+
+  .xl\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .xl\:mt-\[88px\] {
+    margin-top: 88px;
+  }
+
   .xl\:grid {
     display: grid;
   }
@@ -2183,14 +2236,6 @@ input:checked + .toggle-bg {
 @media (min-width: 1536px) {
   .\32xl\:mt-0 {
     margin-top: 0px;
-  }
-
-  .\32xl\:mt-12 {
-    margin-top: 3rem;
-  }
-
-  .\32xl\:mt-14 {
-    margin-top: 3.5rem;
   }
 
   .\32xl\:mt-16 {
