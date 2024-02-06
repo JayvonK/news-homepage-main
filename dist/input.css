@@ -5,3 +5,39 @@
 .bg-body {
     background-color: hsl(36, 100%, 99%);
 }
+
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: Inter Bold;
+    src: url(./assets/fonts/static/Inter-Bold.ttf)
+}
+
+@font-face {
+    font-family: Inter Extra Bold;
+    src: url(./assets/fonts/static/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Inter Regular;
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+.inter {
+    font-family: Inter;
+}
+
+.interBold {
+    font-family: Inter Bold;
+}
+
+.interExtraBold {
+    font-family: Inter Extra Bold;
+}
+
+.interRegular {
+    font-family: Inter Regular;
+}

@@ -1125,9 +1125,9 @@ input:checked + .toggle-bg {
   z-index: 50;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.mx-32 {
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 
 .mb-1 {
@@ -1136,6 +1136,10 @@ input:checked + .toggle-bg {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
 }
 
 .ms-3 {
@@ -1200,10 +1204,6 @@ input:checked + .toggle-bg {
 
 .h-6 {
   height: 1.5rem;
-}
-
-.h-8 {
-  height: 2rem;
 }
 
 .h-9 {
@@ -1312,6 +1312,10 @@ input:checked + .toggle-bg {
   resize: both;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -1320,8 +1324,12 @@ input:checked + .toggle-bg {
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
-.flex-col {
-  flex-direction: column;
+.grid-cols-\[70\%_30\%\] {
+  grid-template-columns: 70% 30%;
+}
+
+.grid-rows-\[55\%_45\%\] {
+  grid-template-rows: 55% 45%;
 }
 
 .flex-wrap {
@@ -1446,6 +1454,11 @@ input:checked + .toggle-bg {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-blue-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(225 239 254 / var(--tw-bg-opacity));
@@ -1509,11 +1522,6 @@ input:checked + .toggle-bg {
   padding: 1rem;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1553,6 +1561,18 @@ input:checked + .toggle-bg {
   padding-top: 0.5rem;
 }
 
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1565,6 +1585,16 @@ input:checked + .toggle-bg {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .font-medium {
@@ -1676,6 +1706,46 @@ input:checked + .toggle-bg {
 
 .bg-body {
   background-color: hsl(36, 100%, 99%);
+}
+
+@font-face {
+  font-family: Inter;
+
+  src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+  font-family: Inter Bold;
+
+  src: url(./assets/fonts/static/Inter-Bold.ttf)
+}
+
+@font-face {
+  font-family: Inter Extra Bold;
+
+  src: url(./assets/fonts/static/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Inter Regular;
+
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+.inter {
+  font-family: Inter;
+}
+
+.interBold {
+  font-family: Inter Bold;
+}
+
+.interExtraBold {
+  font-family: Inter Extra Bold;
+}
+
+.interRegular {
+  font-family: Inter Regular;
 }
 
 .hover\:border-gray-300:hover {
@@ -1883,10 +1953,10 @@ input:checked + .toggle-bg {
     flex-direction: row;
   }
 
-  .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
+  .md\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(2rem * var(--tw-space-x-reverse));
-    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:border-0 {
