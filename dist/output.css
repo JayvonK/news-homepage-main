@@ -1134,10 +1134,6 @@ input:checked + .toggle-bg {
   margin-bottom: 0.25rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1154,10 +1150,6 @@ input:checked + .toggle-bg {
   margin-bottom: 1.5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .mb-9 {
   margin-bottom: 2.25rem;
 }
@@ -1166,12 +1158,12 @@ input:checked + .toggle-bg {
   margin-bottom: 6px;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
+.mb-\[70px\] {
+  margin-bottom: 70px;
 }
 
-.mt-16 {
-  margin-top: 4rem;
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .mt-2 {
@@ -1194,24 +1186,8 @@ input:checked + .toggle-bg {
   margin-top: 2rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
-.-mt-16 {
-  margin-top: -4rem;
-}
-
-.mt-\[70\] {
-  margin-top: 70;
-}
-
 .mt-\[70px\] {
   margin-top: 70px;
-}
-
-.mb-\[70px\] {
-  margin-bottom: 70px;
 }
 
 .block {
@@ -1360,10 +1336,6 @@ input:checked + .toggle-bg {
   grid-template-columns: 30% 70%;
 }
 
-.grid-cols-\[66\.75\%_33\.25\%\] {
-  grid-template-columns: 66.75% 33.25%;
-}
-
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -1400,12 +1372,6 @@ input:checked + .toggle-bg {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-y-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -1545,10 +1511,6 @@ input:checked + .toggle-bg {
   padding: 1rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1594,6 +1556,10 @@ input:checked + .toggle-bg {
   padding-bottom: 1.25rem;
 }
 
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
 }
@@ -1614,6 +1580,10 @@ input:checked + .toggle-bg {
   padding-top: 0.75rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -1622,12 +1592,12 @@ input:checked + .toggle-bg {
   padding-top: 1.5rem;
 }
 
-.pb-3 {
-  padding-bottom: 0.75rem;
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
+.pt-\[15px\] {
+  padding-top: 15px;
 }
 
 .text-center {
@@ -2043,51 +2013,6 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 768px) {
-  .md\:mx-\[40px\] {
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-
-  .md\:mx-\[80px\] {
-    margin-left: 80px;
-    margin-right: 80px;
-  }
-
-  .md\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .md\:mx-\[8px\] {
-    margin-left: 8px;
-    margin-right: 8px;
-  }
-
-  .md\:mx-\[px\] {
-    margin-left: px;
-    margin-right: px;
-  }
-
-  .md\:mx-\[120px\] {
-    margin-left: 120px;
-    margin-right: 120px;
-  }
-
-  .md\:mx-\[1px\] {
-    margin-left: 1px;
-    margin-right: 1px;
-  }
-
-  .md\:mx-\[150px\] {
-    margin-left: 150px;
-    margin-right: 150px;
-  }
-
-  .md\:mx-\[0px\] {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -2134,23 +2059,14 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mx-\[100px\] {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-
-  .lg\:mx-\[150px\] {
-    margin-left: 150px;
-    margin-right: 150px;
-  }
-
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
   }
 
-  .lg\:mt-0 {
-    margin-top: 0px;
+  .lg\:mx-\[150px\] {
+    margin-left: 150px;
+    margin-right: 150px;
   }
 
   .lg\:mt-6 {
@@ -2201,10 +2117,6 @@ input:checked + .toggle-bg {
     margin-top: 5rem;
   }
 
-  .xl\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
   .xl\:mt-\[86px\] {
     margin-top: 86px;
   }
@@ -2247,16 +2159,16 @@ input:checked + .toggle-bg {
     padding-right: 2.5rem;
   }
 
+  .xl\:pr-3 {
+    padding-right: 0.75rem;
+  }
+
   .xl\:pr-4 {
     padding-right: 1rem;
   }
 
   .xl\:pr-8 {
     padding-right: 2rem;
-  }
-
-  .xl\:pr-3 {
-    padding-right: 0.75rem;
   }
 
   .xl\:text-\[57px\] {
@@ -2275,6 +2187,14 @@ input:checked + .toggle-bg {
 
   .\32xl\:mt-12 {
     margin-top: 3rem;
+  }
+
+  .\32xl\:mt-14 {
+    margin-top: 3.5rem;
+  }
+
+  .\32xl\:mt-16 {
+    margin-top: 4rem;
   }
 }
 
